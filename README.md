@@ -23,7 +23,7 @@ pip install numpy pandas yfinance matplotlib
 2. **Run the Script**:  
 
 ```bash
-python macd_trading.py
+python main.py
 ```
 
 3. **Interpret Results**: The script prints transaction details and performance metrics, and displays stock price, MACD, and portfolio charts.  
