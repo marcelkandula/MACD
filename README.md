@@ -28,13 +28,7 @@ python macd_trading.py
 
 3. **Interpret Results**: The script prints transaction details and performance metrics, and displays stock price, MACD, and portfolio charts.  
 
-## 🛠 Code Breakdown  
 
-- **`ema(series, span)`**: Computes the Exponential Moving Average.  
-- **`compute_macd_signal(prices)`**: Calculates MACD and the signal line.  
-- **`get_buy_sell_signals(macd, signal)`**: Identifies buy/sell points based on MACD crossovers.  
-- **`simulate_trading(prices, buy_signals, sell_signals, dates)`**: Simulates trades and evaluates strategy performance.  
-- **`main()`**: Orchestrates the process, including fetching data, computing indicators, simulating trades, and visualizing results.  
 
 ## 📊 Example Output  
 
@@ -54,11 +48,6 @@ Liczba stratnych transakcji: 1
 Skuteczność strategii: 75.00%  
 ```
 
-## 📌 Notes  
-- The strategy uses historical data for backtesting and **does not predict future prices**.  
-- Modify the ticker symbol and data source for different stocks.  
-
 ## 📜 License  
 This project is open-source under the **MIT License**.  
 
-🚀 Happy Trading! 📈
